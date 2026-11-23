@@ -1,0 +1,21 @@
+appId: com.linu.companion
+productName: LINU
+directories:
+  output: release
+files:
+  - dist/**/*
+  - dist-server/**/*
+  - server.ts
+  - electron/**/*
+  - package.json
+  - node_modules/**/*
+win:
+  target:
+    - nsis
+    - portable
+  artifactName: LINU-Setup-${version}.exe
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true

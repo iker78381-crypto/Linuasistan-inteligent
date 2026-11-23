@@ -1,0 +1,6 @@
+{
+  "name": "LINU",
+  "description": "Compañero robótico virtual inteligente para escritorio con rostro expresivo, voz continua, investigación web real, visión por cámara y memoria persistente.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

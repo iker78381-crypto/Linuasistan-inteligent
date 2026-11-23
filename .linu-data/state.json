@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "appearance": {
+      "eyeColor": "#10B981",
+      "accentColor": "#84CC16",
+      "glowIntensity": 0.95,
+      "eyeSize": 1,
+      "eyeSpacing": 1,
+      "blinkSpeed": 1,
+      "backgroundStyle": "oled_deep",
+      "scanlines": true,
+      "windowMode": "fullscreen",
+      "petSize": "medium",
+      "hideControls": false,
+      "transparency": 0.96,
+      "accessory": "none"
+    },
+    "personality": {
+      "humor": 70,
+      "calmness": 60,
+      "curiosity": 85,
+      "enthusiasm": 75,
+      "mildSarcasm": 35,
+      "friendliness": 90,
+      "linuxReferences": "normal",
+      "language": "es-ES"
+    },
+    "voice": {
+      "engine": "gemini",
+      "geminiVoice": "Puck",
+      "rate": 1.03,
+      "volume": 0.9,
+      "continuousMode": true,
+      "bargeInEnabled": true,
+      "silenceTimeoutMs": 1200
+    },
+    "system": {
+      "researchEnabled": true,
+      "cameraAuthorized": false,
+      "memoryEnabled": true,
+      "autoSaveMemories": true,
+      "showSubtitles": true,
+      "playBootSequence": true
+    }
+  },
+  "memories": [
+    {
+      "id": "mem_1795468033422_g9lj",
+      "category": "fact",
+      "content": "Consiguió instalar Linux",
+      "createdAt": "2026-11-23T21:07:13.422Z",
+      "updatedAt": "2026-11-23T21:07:13.422Z"
+    }
+  ]
+}
